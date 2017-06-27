@@ -8,7 +8,6 @@ class twenty48():
         self.status = 1
         self.highest = 0
         self.maxwidth = 0
-        #self.gameloop()
         
         
     def right(self):
@@ -79,32 +78,6 @@ class twenty48():
         for row in self.rows:
             row_list += row
         return row_list
-    
-    
-    #def gameloop(self):
-        #self.put_rand()
-        #self.printboard()
-        
-        #while self.status == 1:
-            #move = input('\nMove: ')
-            #old = deepcopy(self.rows)
-            #letter = move[0].lower()
-            #if letter == 'u':
-                #self.up()
-            #elif letter == 'd':
-                #self.down()
-            #elif letter == 'l':
-                #self.left()
-            #elif letter == 'r':
-                #self.right()
-            #else:
-                #continue
-            
-            #self.check()
-            #if not comp(old, self.rows):
-                #self.put_rand()
-            
-        #print('You done goofed')
         
 
     def squish_right(self, row):
