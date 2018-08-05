@@ -2,6 +2,16 @@
 
 A clone of the game [2048](https://gabrielecirulli.github.io/2048/), written in Python3. Supported on Windows, MacOS, and GNU/Linux. 
 
+## Screenshots
+<table>
+<td>
+<img src="images/2048_started.png" width="233" title="2048 - new game">
+</td>
+<td>
+<img src="images/2048_underway.png" width="233" title="2048 - game underway">
+</td>
+</table>
+
 ## Getting Started
 
 This project consists of only the following two modules.
